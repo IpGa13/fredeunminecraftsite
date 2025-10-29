@@ -1,0 +1,1 @@
+// Javascript sucks, avoid if possible
