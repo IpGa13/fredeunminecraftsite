@@ -1,0 +1,75 @@
+@font-face {
+    font-family: minecraftia;
+    src: url(assets/Minecraftia-Regular.ttf);
+}
+
+
+body {
+    background-image: url(assets/dirt.png);
+    background-size: 5%;
+    image-rendering: pixelated;
+
+    font-family: minecraftia;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.main {
+    margin:15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding:15px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    font-size: x-large;
+    text-shadow: 2px 2px black;
+}
+
+.title img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.invisible a {
+    display:none;
+    flex-direction: column;
+    color:white;
+    text-decoration: none;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    border:2px solid white;
+    margin:5px;
+}
+
+.inline-flex-row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.download {
+    border: 2px solid aqua;
+    padding:5px;
+    margin:10px;
+    background-color: green;
+    border-radius: 15px;
+    transition: 100ms;
+}
+
+.download:hover {
+    background-color:black;
+    border-radius:0px;
+}
+
+.flex-tile {
+    width:25vh;
+}
