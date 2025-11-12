@@ -65,6 +65,8 @@ a {
     transition: 100ms;
     text-align: center;
     vertical-align: middle;
+    user-select: none;
+    -moz-user-select: none;
 }
 
 .download:hover {
